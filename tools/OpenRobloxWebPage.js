@@ -1,4 +1,5 @@
 // Developed by Lewis / ssoq - 2024
+// https://github.com/ssoq
 
 const TypeOfPage =
 {
@@ -10,7 +11,9 @@ const TypeOfPage =
 const TypeOfTarget =
 {
     Blank: "_blank",
-    Parent: "_parent"
+    Parent: "_parent",
+    Self: "_self",
+    Top: "_top"
 };
 
 function OpenRobloxWebPage(type, id, target)
