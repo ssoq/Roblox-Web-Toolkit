@@ -7,7 +7,7 @@ const TypeOfPage =
     Profile: "profile"
 };
 
-const TypeOfTarget = 
+const TypeOfTarget =
 {
     Blank: "_blank",
     Parent: "_parent"
