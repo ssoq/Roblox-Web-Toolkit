@@ -1,2 +1,2 @@
 # Roblox-Stats-Display
-Library which pulls Roblox data for groups/games/profiles and displays the respective data into dynamically created nodes.
+Roblox Web Toolkit enables you to pull game/group/profile data, create dynamic nodes and display data, visit Roblox webpages via id's, and much more. 
