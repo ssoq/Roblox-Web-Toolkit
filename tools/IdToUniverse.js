@@ -1,9 +1,8 @@
 // Developed by Lewis / ssoq - 2024
 // https://github.com/ssoq
 
-async function GetUniverseId(gameId, apiKey = null) {
-    const apiKeyParam = apiKey ? `&apiKey=${apiKey}` : '';
-    const url = `https://apis.roproxy.com/universes/v1/places/${gameId}/universe${apiKeyParam}`;
+async function GetUniverseId(gameId) {
+    const url = `https://apis.roproxy.com/universes/v1/places/${gameId}/universe`;
 
     const maxRetries = 3;
     let retries = 0;
