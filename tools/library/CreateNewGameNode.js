@@ -52,5 +52,4 @@ async function CreateNewGameNode(id, coverUrl, intFormat, navigate, navType, pag
     }
 }
 
-// Usage
 CreateNewGameNode(3260590327, "https://tr.rbxcdn.com/a96d6e2ef1e82fea54546646a10c51ac/768/432/Image/Png", TypeOfIntegerFormat.Delimiters, CanNavigateUser.True, TypeOfTarget.Blank, TypeOfPage.Game);
