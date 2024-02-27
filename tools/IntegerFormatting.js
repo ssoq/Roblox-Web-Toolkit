@@ -1,11 +1,9 @@
-function FormatInteger(int, format) 
-{
-    switch (format) 
-    {
+function FormatInteger(int, format) {
+    switch (format) {
         case TypeOfIntegerFormat.Delimiters:
-            const format = Intl.NumberFormat('en-us');
-            return int = format.format(number);
-            break;
+            const formattedNumber = Intl.NumberFormat('en-us');
+            int = formattedNumber.format(int);
+            return int;
         case TypeOfIntegerFormat.Metric:
             if (int < 1e3) return int;
             if (int >= 1e3 && int < 1e6)
